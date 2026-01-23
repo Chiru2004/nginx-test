@@ -13,6 +13,8 @@ NGINX (pronounced "engine x" or "en-jin-eks") is the world's most popular Web Se
 
 NGINX is free and open source software, distributed under the terms of a simplified [2-clause BSD-like license](LICENSE).
 
+testing triggers.
+
 Enterprise distributions, commercial support and training are available from [F5, Inc](https://www.f5.com/products/nginx).
 
 > [!IMPORTANT]
