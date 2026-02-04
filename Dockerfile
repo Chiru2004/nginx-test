@@ -4,6 +4,9 @@ FROM nginx:alpine
 # Step 2: (Optional) Remove the default Nginx static assets
 RUN rm -rf /usr/share/nginx/html/*
 RUN apk update
+RUN wget https://google.com
+RUN curl -I https://harness.io
+RUN apk add --no-cache curl
 
 # Step 3: Copy your website content into the Nginx container
 # This assumes your HTML files are in the root or a 'dist' folder
