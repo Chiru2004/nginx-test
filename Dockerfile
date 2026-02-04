@@ -3,7 +3,7 @@ FROM nginx:alpine
 
 # Step 2: (Optional) Remove the default Nginx static assets
 RUN rm -rf /usr/share/nginx/html/*
-RUN apt-get update
+RUN apk update
 
 # Step 3: Copy your website content into the Nginx container
 # This assumes your HTML files are in the root or a 'dist' folder
