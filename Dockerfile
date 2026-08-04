@@ -1,5 +1,6 @@
 # Step 1: Use the official Nginx image as the base
-FROM nginx:alpine
+ARG NGINX_VERSION=alpine 
+FROM nginx:${NGINX_VERSION}
 
 # Step 2: (Optional) Remove the default Nginx static assets
 RUN rm -rf /usr/share/nginx/html/*
